@@ -190,7 +190,7 @@ st.subheader("4️⃣ Ranking dos Problemas")
 rcol1, rcol2, rcol3 = st.columns(3)
 
 with rcol1:
-    st.markdown("**🚨 Top 5 Maiores Atrasos (dias)**")
+    st.markdown("🚨 Top 5 Maiores Atrasos (dias)")
     top_atrasos = df_f.sort_values("Dias de Atraso", ascending=False).head(5)
     st.dataframe(
         top_atrasos[["ID Entrega", "Transportadora", "Região", "Dias de Atraso"]],
@@ -198,7 +198,7 @@ with rcol1:
     )
 
 with rcol2:
-    st.markdown("**🌎 Regiões Mais Problemáticas**")
+    st.markdown("🌎 Regiões Mais Problemáticas")
     if total_entregas > 0:
         rank_regiao = regiao_stats[["Região", "% Atraso"]].copy()
         rank_regiao["Alerta"] = rank_regiao["% Atraso"].apply(status_cor)
@@ -206,7 +206,7 @@ with rcol2:
         st.dataframe(rank_regiao, hide_index=True, use_container_width=True)
 
 with rcol3:
-    st.markdown("**🚛 Transportadoras Críticas**")
+    st.markdown("🚛 Transportadoras Críticas")
     if total_entregas > 0:
         rank_transp = transp_stats[["Transportadora", "% Atraso"]].copy()
         rank_transp["Alerta"] = rank_transp["% Atraso"].apply(status_cor)
@@ -238,5 +238,3 @@ if total_entregas > 0:
 else:
     st.info("Nenhum dado disponível para os filtros selecionados.")
 
-st.markdown("---")
-st.caption("Dashboard Inteligente de Monitoramento Logístico — Projeto Acadêmico")
