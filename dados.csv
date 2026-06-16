@@ -1,0 +1,51 @@
+ID Entrega,Data,Região,Transportadora,Prazo Previsto,Data Real,Dias de Atraso,Status
+E001,2026-01-05,Sudeste,TransRápida,2026-01-07,2026-01-07,0,No Prazo
+E002,2026-01-06,Nordeste,LogExpress,2026-01-09,2026-01-12,3,Atrasado
+E003,2026-01-07,Sul,TransRápida,2026-01-10,2026-01-10,0,No Prazo
+E004,2026-01-08,Norte,CargoMax,2026-01-13,2026-01-19,6,Atrasado
+E005,2026-01-09,Centro-Oeste,LogExpress,2026-01-12,2026-01-12,0,No Prazo
+E006,2026-01-10,Nordeste,CargoMax,2026-01-14,2026-01-22,8,Atrasado
+E007,2026-01-11,Sudeste,LogExpress,2026-01-13,2026-01-13,0,No Prazo
+E008,2026-01-12,Sul,RotaForte,2026-01-15,2026-01-16,1,Atrasado
+E009,2026-01-13,Norte,TransRápida,2026-01-18,2026-01-25,7,Atrasado
+E010,2026-01-14,Centro-Oeste,RotaForte,2026-01-17,2026-01-17,0,No Prazo
+E011,2026-02-01,Sudeste,CargoMax,2026-02-04,2026-02-05,1,Atrasado
+E012,2026-02-02,Nordeste,TransRápida,2026-02-05,2026-02-05,0,No Prazo
+E013,2026-02-03,Sul,LogExpress,2026-02-06,2026-02-10,4,Atrasado
+E014,2026-02-04,Norte,RotaForte,2026-02-09,2026-02-18,9,Atrasado
+E015,2026-02-05,Centro-Oeste,CargoMax,2026-02-08,2026-02-08,0,No Prazo
+E016,2026-02-06,Nordeste,LogExpress,2026-02-09,2026-02-09,0,No Prazo
+E017,2026-02-07,Sudeste,TransRápida,2026-02-10,2026-02-12,2,Atrasado
+E018,2026-02-08,Norte,CargoMax,2026-02-13,2026-02-21,8,Atrasado
+E019,2026-02-09,Sul,RotaForte,2026-02-12,2026-02-12,0,No Prazo
+E020,2026-02-10,Centro-Oeste,LogExpress,2026-02-13,2026-02-14,1,Atrasado
+E021,2026-03-01,Norte,CargoMax,2026-03-04,2026-03-13,9,Atrasado
+E022,2026-03-02,Sudeste,TransRápida,2026-03-05,2026-03-05,0,No Prazo
+E023,2026-03-03,Nordeste,RotaForte,2026-03-06,2026-03-09,3,Atrasado
+E024,2026-03-04,Sul,LogExpress,2026-03-07,2026-03-07,0,No Prazo
+E025,2026-03-05,Norte,CargoMax,2026-03-10,2026-03-20,10,Atrasado
+E026,2026-03-06,Centro-Oeste,TransRápida,2026-03-09,2026-03-09,0,No Prazo
+E027,2026-03-07,Nordeste,CargoMax,2026-03-10,2026-03-17,7,Atrasado
+E028,2026-03-08,Sudeste,LogExpress,2026-03-11,2026-03-11,0,No Prazo
+E029,2026-03-09,Sul,RotaForte,2026-03-12,2026-03-13,1,Atrasado
+E030,2026-03-10,Norte,TransRápida,2026-03-15,2026-03-24,9,Atrasado
+E031,2026-04-01,Sudeste,CargoMax,2026-04-04,2026-04-04,0,No Prazo
+E032,2026-04-02,Nordeste,LogExpress,2026-04-05,2026-04-13,8,Atrasado
+E033,2026-04-03,Norte,CargoMax,2026-04-08,2026-04-19,11,Atrasado
+E034,2026-04-04,Sul,TransRápida,2026-04-07,2026-04-07,0,No Prazo
+E035,2026-04-05,Centro-Oeste,RotaForte,2026-04-08,2026-04-09,1,Atrasado
+E036,2026-04-06,Norte,LogExpress,2026-04-11,2026-04-21,10,Atrasado
+E037,2026-04-07,Sudeste,TransRápida,2026-04-10,2026-04-10,0,No Prazo
+E038,2026-04-08,Nordeste,CargoMax,2026-04-11,2026-04-18,7,Atrasado
+E039,2026-04-09,Sul,RotaForte,2026-04-12,2026-04-12,0,No Prazo
+E040,2026-04-10,Norte,CargoMax,2026-04-15,2026-04-26,11,Atrasado
+E041,2026-05-01,Sudeste,LogExpress,2026-05-04,2026-05-04,0,No Prazo
+E042,2026-05-02,Nordeste,TransRápida,2026-05-05,2026-05-06,1,Atrasado
+E043,2026-05-03,Norte,CargoMax,2026-05-08,2026-05-19,11,Atrasado
+E044,2026-05-04,Sul,RotaForte,2026-05-07,2026-05-07,0,No Prazo
+E045,2026-05-05,Centro-Oeste,LogExpress,2026-05-08,2026-05-09,1,Atrasado
+E046,2026-05-06,Norte,CargoMax,2026-05-11,2026-05-22,11,Atrasado
+E047,2026-05-07,Sudeste,TransRápida,2026-05-10,2026-05-10,0,No Prazo
+E048,2026-05-08,Nordeste,LogExpress,2026-05-11,2026-05-18,7,Atrasado
+E049,2026-05-09,Sul,CargoMax,2026-05-12,2026-05-13,1,Atrasado
+E050,2026-05-10,Norte,RotaForte,2026-05-15,2026-05-25,10,Atrasado
